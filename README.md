@@ -1,16 +1,17 @@
 # Spring-boot-adminProject
 스프링부트 학습을 위한 토이 프로젝트.
-Admin Site 만들기 프로젝트.
+Admin Site 만들기.
 
 ## 학습노트
 
 ### 자바
 #### 1. Abstract class & Interface
-
+Abstract class 는 충상 클래스로 단일 상속을 목적으로 상속을 받아 기능을 확장시키기 위해 존재한다. Interface는 구현하는 모든 클래스에 대해 특정한 메소드가 만드시 존재하도록 강제하는 역할이다. 둘 다 선언만 있고 구현은 없으며, 객체를 생성할 없다. 추상 클래스는 extends로 상속받을 수 있고 인터페이스는 implement를 통해 구현한다. 또한 인터페이스는 상속과 다르게 다중으로 구현할 수 있다.
 #### 2. Public, private, protected
-#### 3. Enumerate
-#### 4. lambda function
-#### 5. stream()
+Public은 어디서든 접근 가능.
+Private은 오직 같은 클래스내에서만 접근 가능
+Protected는 같은 클래스, 같은 패캐지, 혹은 상속받은 클래스만 접근 가능
+#### 4. stream()
 
 
 ### 스프링부트
