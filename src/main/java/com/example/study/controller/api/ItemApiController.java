@@ -14,7 +14,7 @@ import javax.annotation.PostConstruct;
 
 @RestController
 @RequestMapping("/api/item")
-public class ItemApiController extends CrudController<ItemApiRequest, ItemApiResponse, Item> {
+public class  ItemApiController extends CrudController<ItemApiRequest, ItemApiResponse, Item> {
 
 
 }
