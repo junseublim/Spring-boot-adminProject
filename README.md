@@ -1,6 +1,20 @@
 # Spring-boot-adminProject
 스프링부트 학습을 위한 토이 프로젝트.
-Admin Site 만들기.
+CRUD 연습용 Admin Site 만들기.
+
+### API
+
+| Address                        | Explanation                |
+|--------------------------------|----------------------------|
+| localhost:8080/pages                | 고객관리 화면을 볼수 있는 웹사이트 |
+| localhost:8080/api/user/{id}        |User CRUD                   |
+| localhost:8080/api/partner/{id}     |Partner CRUD                |
+| localhost:8080/api/item/{id}        |Item CRUD                   |
+| localhost:8080/api/orderGroup/{id}  |OrderGroup CRUD             |
+| localhost:8080/api/orderDetail/{id} |OrderDetail CRUD            |
+
+
+
 
 ## 학습노트
 
