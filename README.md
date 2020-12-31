@@ -65,4 +65,6 @@ Gradle은 오픈소스 빌드 도구이다. 빌드 도구란 개발에 있어서
 #### 3. Lombok
 Lombok이란 자바 라이브러리로, 반복되는 getter, setter, toString 등의 메서드 작성 코드를 줄여주는 코드 다이어트 라이브러리이다. Lombok은 어노테이션을 기반으로 코드를 컴파일과정에서 생성해주는 방식으로 동작한다.
 #### 4. JPA
+Java Persistence API. 자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스이다. 
+- Hibernate: JPA를 구현한 구현체이다.
 - Repository
